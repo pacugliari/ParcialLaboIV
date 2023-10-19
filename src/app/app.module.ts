@@ -7,6 +7,7 @@ import { LoginComponent } from './components/login/login.component';
 import { BienvenidaComponent } from './components/bienvenida/bienvenida.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MenuComponent } from './components/menu/menu.component';
+import { ListadoPublicoComponent } from './components/listado-publico/listado-publico.component';
 
 
 @NgModule({
