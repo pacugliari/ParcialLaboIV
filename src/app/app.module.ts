@@ -8,6 +8,11 @@ import { BienvenidaComponent } from './components/bienvenida/bienvenida.componen
 import { ReactiveFormsModule } from '@angular/forms';
 import { MenuComponent } from './components/menu/menu.component';
 import { ListadoPublicoComponent } from './components/listado-publico/listado-publico.component';
+import { ContainerComponent } from './components/container/container.component';
+import { AltaContainerComponent } from './components/alta-container/alta-container.component';
+import { BajaContainerComponent } from './components/baja-container/baja-container.component';
+import { ModificarContainerComponent } from './components/modificar-container/modificar-container.component';
+import { TablaContainerComponent } from './components/tabla-container/tabla-container.component';
 
 
 @NgModule({
@@ -16,6 +21,11 @@ import { ListadoPublicoComponent } from './components/listado-publico/listado-pu
     LoginComponent,
     BienvenidaComponent,
     MenuComponent,
+    ContainerComponent,
+    AltaContainerComponent,
+    BajaContainerComponent,
+    ModificarContainerComponent,
+    TablaContainerComponent,
   ],
   imports: [
     BrowserModule,
